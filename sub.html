@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/reset.css">
+     <script src="./js/jquery.js"></script>
+     <script>
+
+        $(document).ready(function(){
+            $('.sub').hide();
+            
+
+            $('.nav1 > li').mouseenter(function(){
+                $('.sub').css('display' , 'none');
+               $(this).find('.sub')
+               .show()
+               .css({display:block, opacity:0})
+               .animate({ opacity:1}, 700);
+               console.log('보임');
+            }) 
+
+            $('.nav1 > li').mouseleave(function(){
+    
+                $('.sub')
+                .hide()
+                
+            })
+
+
+
+
+        })
+
+
+     </script>
+
+
+</head>
+<body>
+
+
+<div id="wrap">
+
+<header id="header">
+  <div id="in">
+    <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt=""></a></h1>
+      <nav class="nav">
+        <ul class="nav1">
+            <li>
+              <a href="./sub.html">NEW</a>
+            </li>
+            <li>
+              <a href="">INFORMATION</a>
+                <ul class="sub">
+                  <li><a href="./event.html">EVENT</a></li>
+                  <li><a href="">공지</a></li>
+               </ul>
+            </li>
+            <li>
+              <a href="">BRAND</a>
+            </li>
+            <li>
+              <a href="./coll.html">COLLECTION</a>
+              <ul class="sub">
+                  <li><a href="./coll.html">ALL COLLECTION🎀</a></li>
+                  <li><a href="./sub.html">BUNNY GARDEN🐰</a></li>
+                  <li><a href="./sub2.html">THE SWEETIE BEAR🧸</a></li>
+                  <li><a href="">SHRLL'S JEWEL✨</a></li>
+                  <li><a href="">STRAWBERRY QUPID🍓</a></li>
+                  <li><a href="">STRAWBERRY ROCOCO🍓</a></li>
+                  <li><a href="">SWAN BALLET🦢</a></li>
+                  
+               </ul>
+            </li>
+            <li>
+              <a href="">STORE</a>
+              <ul class="sub">
+                  <li><a href="">ONLY</a></li>
+                  <li><a href="">SALE</a></li>
+                  <li><a href="">BEST</a></li>
+                  <li><a href="">FACE</a></li>
+                  <li><a href="">LIP</a></li>
+                  <li><a href="">BASE</a></li>
+               </ul>
+            </li>
+            <li>
+              <a href="">COMMUNITY</a>
+                  <ul class="sub">
+                     <li><a href="">REVIEW</a></li>
+                     <li><a href="">Q&A</a></li>
+               </ul>
+            </li>
+        </ul>
+        <ul class="nav2">
+            <li><a href="">로그인</a></li>
+            <li><a href="">회원가입</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+
+<main id="main">
+    <div class="img">
+        <img src="./img/222.png" alt="">
+    </div>
+     <img src="./img/lace.png" alt="">
+
+</main>
+
+<section id="contents">
+
+    <article class="h_con">
+        <div class="new">
+            <h4><a href="">BUNNY GARDEN</a></h4>
+            <div class="new1"></div>
+            <div class="new2">
+              <div class="new2_1">
+                <ul>
+                    <li><img src="./img/new2.png" alt=""></li>
+                    
+                </ul>
+                 <div class="new2_2">
+                    <u1>
+                        <li><img src="./img/11.png" alt="">
+                        <h5>[버니 가든] 립밤&참 세트 (2colors)</h5>
+                          <p>43,000원</p></li>
+                        <li><img src="./img/31.png" alt="">
+                        <h5>[버니 가든] 메이크업 멀티 팔레트 (3colors)</h5>
+                          <p>37,000원</p></li>
+                        <li><img src="./img/31.png" alt="">
+                        <h5>[버니 가든] 메이크업 멀티 팔레트 (3colors)h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/41.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+
+                          <li><img src="./img/11.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/21.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/31.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/41.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+
+                      
+                          <li><img src="./img/11.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/21.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/31.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                        <li><img src="./img/41.png" alt="">
+                        <h5>[버니가든] 클라우드 립 크림(9colors)</h5>
+                          <p>26,000원</p></li>
+                    </u1>
+                 </div>
+            </div>
+            </div>
+        </div>
+
+           
+        <div class="lace">
+          <img src="./img/lace.png" alt="">
+        </div>
+
+    
+
+    </article>
+
+  
+</section>
+    
+<footer id="footer">
+
+     <div class="footer_in">
+        <h1 class="logo"><img src="./img/logo.png" alt=""></h1>
+     </div>
+     <div class="footer_b">
+     <p>
+        COMPANY : 죠원인터내셔널주식회사
+        <br>CEO : ZHANG QIAO, 이진형
+        <br>통신판매업 신호번호 : 2025-서울강남-04465호
+        <br>BUSINESS LICENSE : 131-86-62527
+        <br>CALL : 070-4014-2377
+        <br>ADDRESS : 06143 서울 강남구 언주로108길 17-2 (역삼동) 4층
+        <br>Copyright © 플라워노즈. All Rights Reserved. Hosting by Cafe24 Corp.
+     </p>
+     </div>
+     <div class="icon">
+        <ul>
+            <li><a href=""><img src="./img/footer_ic01.jpg" alt=""></a></li>
+            <li><a href=""><img src="./img/footer_ic02.jpg" alt=""></a></li>
+            <li><a href=""><img src="./img/footer_ic03.jpg" alt=""></a></li>
+            <li><a href=""><img src="./img/footer_ic04.jpg" alt=""></a></li>
+        </ul>
+     </div>
+</footer>
+
+
+</body>
+
+</html>
