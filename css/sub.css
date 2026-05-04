@@ -241,6 +241,20 @@
     
 }
 
+#contents .new2_2 li h5{
+    text-align: center;
+    font-size:17px;
+    position: relative;
+    top: 10px;
+}
+
+#contents .new2_2 li p{
+    text-align: center;
+    font-size:17px;
+    position: relative;
+    top: 10px;
+}
+
 
 
 
